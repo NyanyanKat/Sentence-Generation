@@ -1,2 +1,29 @@
 # Sentence-Generation
 Generate random English sentences with correct grammar structure
+
+The Grammar
+S: Sentence
+NP: Noun Phrase
+VP: Verb Phrase
+PP: Prepositional Phrase (on the couch, in the class, over the hill)
+ART: Article (a, the, an)
+NOUN: Noun (boy, dog, rug ..)
+VERB: Verb (run, walk, swim, is, are, were ...)
+ADJ: Adjective (purple, fuzzy, sharp, fast ...) (words that describe nouns)
+ADV: Adverb (lazily, quickly, slowly ...) (words that describe verbs, often end in “-ly”)
+PREP: Preposition (on, over, through, in, around ... ) (words that ﬁt in the sentence “The bunny went PREP the log”)
+
+< S > ::=< NP >< V P >
+< NP > ::=< NOUN > | < ART >< NOUN > | < NP >< P P >
+< V P > ::=< V ERB > | < V P >< NP > | < V P >< ADJ > | < V P >< ADV > < P P > ::=< PREP >< NP >
+
+
+Generate a sentence that follows the grammar by picking random substitutions from the grammar and ﬁll in with random words from the word lists. Provided are lists of Nouns, Verbs, Adjectives, Adverbs, Articles, and Prepositions. For example, one sentence could be:
+S
+NP VP
+NP PP VP
+NP PP VERB
+ART NOUN PP VERB
+ART NOUN PREP NP VERB
+ART NOUN PREP ART NOUN VERB
+The bunny in the cage slept.
