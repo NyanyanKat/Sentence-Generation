@@ -15,7 +15,8 @@ PREP: Preposition (on, over, through, in, around ... ) (words that ﬁt in the s
 <br />
 < S > ::=< NP >< V P > <br />
 < NP > ::=< NOUN > | < ART >< NOUN > | < NP >< P P > <br />
-< V P > ::=< V ERB > | < V P >< NP > | < V P >< ADJ > | < V P >< ADV > < P P > ::=< PREP >< NP > <br />
+< V P > ::=< V ERB > | < V P >< NP > | < V P >< ADJ > | < V P >< ADV > <br />
+< P P > ::=< PREP >< NP > <br /> <br />
 <br />
 <br />
 Generate a sentence that follows the grammar by picking random substitutions from the grammar and ﬁll in with random words from the word lists. Provided are lists of Nouns, Verbs, Adjectives, Adverbs, Articles, and Prepositions. For example, one sentence could be: <br />
