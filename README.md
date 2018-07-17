@@ -18,8 +18,7 @@ PREP: Preposition (on, over, through, in, around ... ) (words that ﬁt in the s
 < V P > ::=< V ERB > | < V P >< NP > | < V P >< ADJ > | < V P >< ADV > <br />
 < P P > ::=< PREP >< NP > <br /> <br />
 <br />
-<br />
-Generate a sentence that follows the grammar by picking random substitutions from the grammar and ﬁll in with random words from the word lists. Provided are lists of Nouns, Verbs, Adjectives, Adverbs, Articles, and Prepositions. For example, one sentence could be: <br />
+This program generates a sentence that follows the grammar by picking random substitutions from the grammar and ﬁll in with random words from the word lists. Provided are lists of Nouns, Verbs, Adjectives, Adverbs, Articles, and Prepositions. For example, one sentence could be: <br />
 S <br />
 NP VP <br />
 NP PP VP <br />
